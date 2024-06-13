@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "build-only",
+    "build": "run-p type-check build-only",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit",
@@ -16,7 +16,7 @@
     "vue": "^3.2.45",
     "vue-demi": "^0.14.8",
     "vue-router": "^4.1.6",
-    "vuefire": "^3.1.23",
+    "vuefire": "^3.0.1",
     "vuetify": "^3.0.6"
   },
   "devDependencies": {
